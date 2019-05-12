@@ -12,7 +12,7 @@ class PageCell: UICollectionViewCell {
     
     lazy var imageView: UIImageView = {
         let imageView = UIImageView(image: #imageLiteral(resourceName: "1"))
-        imageView.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
+        imageView.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height) //Center image, fill screen
         imageView.translatesAutoresizingMaskIntoConstraints = false
         
         return imageView
