@@ -11,7 +11,7 @@ import UIKit
 class SwipingController: UICollectionViewController {
     
     //For later use
-    let imageNamesToDisplayInEachCell = ["1", "2", "3", "4", "5.jpg", "6.jpg"]
+    let imageNamesToDisplayInEachCell = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
