@@ -39,7 +39,7 @@ extension SwipingController {
     //Cell creation
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellId", for: indexPath) as! PageCell
-        let nameOfImageToUseInCell = imageNamesToDisplayInEachCell[indexPath.row]
+        let nameOfImageToUseInCell = imageNamesToDisplayInEachCell[indexPath.row] //Get image that corresponds to current cell
         cell.imageView.image = UIImage(named: nameOfImageToUseInCell) //Changes as user swipes to next cell
         return cell
     }
